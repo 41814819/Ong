@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFFFFF;
+    background-image: url(filhote7.png);
+}
+
+.logo{
+	text-align:center;
+}
+
+div#interface {
+    width: 1024px;
+    margin:0px auto 00px auto;
+    padding: 0px 0px 0px 0px;
+
+}
+p {
+    font-family: Verdana;
+    font-size: 14px;
+    text-align:Left;
+}
+
+h2 {
+    font-family: Verdana;
+    text-align: justify;
+    text-indent: 10px;
+    text-align:Left;
+}
+
+h3 {
+    font-family: Verdana;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    font-size: 12px;
+    list-style:none;
+    border:2px solid #FFFFFF;
+    float:left;
+}
+
+.menu li {
+  position:relative;
+  float:left;
+  border-right:1px solid #FFFFFF;
+  text-transform: uppercase;
+  background-color: #5CACEE;
+}
+
+.menu li a {
+  font-color: #5CACEE;
+  text-decoration:none;
+  padding:5px 20px;
+  display:block;
+}
+
+.menu li a:hover{
+  background: #5CACEE;
+  color:#FFFFFF;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  display:none;
+}
+
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+.menu li ul li{
+  border:2px solid #5CACEE;
+  display:block;
+  width:150px;
+  background-color: #5CACEE;
+}
+
+section#corpo {
+    display: block;
+    width: 1024px;
+    float: left;
+}
+
+footer#rodape {
+    display: block;
+    width: 200px;
+
+}
